@@ -1,0 +1,19 @@
+
+# Core
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+
+# ML
+scikit-learn
+
+# Airflow
+apache-airflow==2.8.1  # Pin to a stable version
+apache-airflow-providers-postgres
+
+# Dashboard
+dash
+plotly
+matplotlib
+

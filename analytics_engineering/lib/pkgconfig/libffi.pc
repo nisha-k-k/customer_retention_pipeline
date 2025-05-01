@@ -1,0 +1,11 @@
+prefix=/Users/test/analytics_engineering/analytics_engineering
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/test/analytics_engineering/analytics_engineering/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

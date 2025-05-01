@@ -1,0 +1,13 @@
+prefix=/Users/test/analytics_engineering/analytics_engineering
+exec_prefix=/Users/test/analytics_engineering/analytics_engineering
+libdir=/Users/test/analytics_engineering/analytics_engineering/lib
+sharedlibdir=/Users/test/analytics_engineering/analytics_engineering/lib
+includedir=/Users/test/analytics_engineering/analytics_engineering/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
